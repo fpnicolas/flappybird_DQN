@@ -35,6 +35,7 @@ class Barrier(pygame.sprite.Sprite):
         image.fill(green)
         self.image = image
         self.last_time = 0
+        assert 1 == 1
 
     # X property
     def _getx(self): return self.rect.x
